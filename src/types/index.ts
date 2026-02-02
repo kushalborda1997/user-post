@@ -1,0 +1,1 @@
+export type RequestedUser = Express.User & { _id?: string, role?: string }
